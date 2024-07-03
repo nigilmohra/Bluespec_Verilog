@@ -3,4 +3,4 @@ The repository contains details of Bluespec Verilog (BSV), beginning from the in
 
 ## Installation of Bluespec Simulator in Ubuntu
 
-Install the latest Bluespec Compiler version https://github.com/B-Lang-org/bsc/releases. 
+Install the latest Bluespec Compiler (BSC) version [BSC](https://github.com/B-Lang-org/bsc/releases). 
