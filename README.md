@@ -11,3 +11,10 @@ The repository contains details of Bluespec Verilog (BSV), beginning from the in
 7. The open the directory using `cd /opt/tools/bsc` and create a symbolic link using the command `sudo ln -s filename latest`.
 ## Creating a PATH Permanently
 The directory contains a `bin` subdirectory, where the executables for the tools are found. To use the tools, just add that directory to the `PATH`: `export PATH="/opt/tools/bsc/latest/bin:$PATH"`.
+To add the PATH permanently, follow the following steps.
+1. Initially, use the following command to see all the added PATHS `echo $PATH`.
+2. Then, open the bash prompt using the following command `gedit ~/.bashrc`. Here the text editor, I use is gedit, the user can use `vim` or `nano`.
+   ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/e8cc4d2c-3948-44ce-b343-d33d8611bfde)
+3. Scroll to the bottom of the page, add the path as shown in the figure. Save and exit the bash prompt.
+
+
