@@ -18,5 +18,10 @@ To add the PATH permanently, follow the following steps.
    ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/e8cc4d2c-3948-44ce-b343-d33d8611bfde)
 
 3. Scroll to the bottom of the page, add the path as shown in the figure. Save and exit the bash prompt.
+4. To check whether the PATH has been added correctly, again use the command `echo $PATH`. If it added successfuly, the user will get an ouput as shown in the figure.
+
+   ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/94048caf-62b0-43e0-bfac-bbf81f3484f7)
+
+
 
 
