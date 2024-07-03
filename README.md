@@ -23,6 +23,7 @@ To add the PATH permanently, follow the following steps.
    ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/94048caf-62b0-43e0-bfac-bbf81f3484f7)
 
 5. Once the PATH is added, to check type `bsc`. Setup of the Bluespec compiler is done. Time to run 'Hello World'.
+
    ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/1b05fbf5-2feb-44f4-ad20-86640f159c17)
 
 
