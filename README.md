@@ -5,3 +5,4 @@ The repository contains details of Bluespec Verilog (BSV), beginning from the in
 1. Install the latest Bluespec Compiler (BSC) version here [BSC](https://github.com/B-Lang-org/bsc/releases). 
 2. Move the setup file to `/opt` in the Ubuntu drive using the command `sudo mv filename /opt`.
 3. Unpack the `tar.gz` file using the command `sudo tar -xvzf filename`.
+4. Open the folder with the same filename as the `tar.gz`. Open the `README` document and follow the steps.
