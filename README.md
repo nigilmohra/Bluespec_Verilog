@@ -6,3 +6,7 @@ The repository contains details of Bluespec Verilog (BSV), beginning from the in
 2. Move the setup file to `/opt` in the Ubuntu drive using the command `sudo mv filename /opt`.
 3. Unpack the `tar.gz` file using the command `sudo tar -xvzf filename`.
 4. Open the folder with the same filename as the `tar.gz`. Open the `README` document and follow the steps.
+   \nextline
+  These scripts should be executed only after placing the directory under any one of the following location
+6. Create a directory named tools, and place the bsc inside it using the command `sudo mkdir -p /opt/tools/bsc`. 
+
