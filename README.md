@@ -10,6 +10,5 @@ The repository contains details of Bluespec Verilog (BSV), beginning from the in
 6. Then move the file to the location `/opt/tools/bsc/filename` using the command `sudo mv filename /opt/tools/bsc/filename`.
 7. The open the directory using `cd /opt/tools/bsc` and create a symbolic link using the command `sudo ln -s filename latest`.
 <br />
-
 ## Creating a PATH Permanently
 
