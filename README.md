@@ -13,7 +13,7 @@ The repository contains details of Bluespec Verilog (BSV), beginning from the in
 The directory contains a `bin` subdirectory, where the executables for the tools are found. To use the tools, just add that directory to the `PATH`: `export PATH="/opt/tools/bsc/latest/bin:$PATH"`.
 To add the PATH permanently, follow the following steps.
 1. Initially, use the following command to see all the added PATHS `echo $PATH`.
-2. Then, open the bash prompt using the following command `gedit ~/.bashrc`. Here the text editor, I use is gedit, the user can use `vim` or `nano`.
+2. Then, open the bash prompt using the following command `gedit ~/.bashrc`. Here the text editor, I use is `gedit`, the user can use `vim` or `nano`.
 
    ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/e8cc4d2c-3948-44ce-b343-d33d8611bfde)
 
@@ -21,6 +21,10 @@ To add the PATH permanently, follow the following steps.
 4. To check whether the PATH has been added correctly, again use the command `echo $PATH`. If it added successfuly, the user will get an ouput as shown in the figure.
 
    ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/94048caf-62b0-43e0-bfac-bbf81f3484f7)
+
+5. Once the PATH is added, to check type `bsc`. Setup of the Bluespec compiler is done. Time to run 'Hello World'.
+   ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/1b05fbf5-2feb-44f4-ad20-86640f159c17)
+
 
 
 
