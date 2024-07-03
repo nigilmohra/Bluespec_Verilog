@@ -14,9 +14,9 @@ The directory contains a `bin` subdirectory, where the executables for the tools
 To add the PATH permanently, follow the following steps.
 1. Initially, use the following command to see all the added PATHS `echo $PATH`.
 2. Then, open the bash prompt using the following command `gedit ~/.bashrc`. Here the text editor, I use is gedit, the user can use `vim` or `nano`.
-</br>
+
    ![image](https://github.com/nigilmohra/Bluespec_Verilog/assets/82286406/e8cc4d2c-3948-44ce-b343-d33d8611bfde)
-</br>
-4. Scroll to the bottom of the page, add the path as shown in the figure. Save and exit the bash prompt.
+
+3. Scroll to the bottom of the page, add the path as shown in the figure. Save and exit the bash prompt.
 
 
