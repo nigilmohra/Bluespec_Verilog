@@ -23,7 +23,7 @@ To add the `bin` subdirectory to the `PATH` open the configuration file for the 
 
 At the bottom of the configuration file, add the following path: `export PATH="/opt/tools/bsc/latest/bin:$PATH"`. Save and exit.
 
-To check whether the `PATH` has been added correctly, use the command `echo $PATH`. Successful inclusion of the path will prompt the following output in the terminal window `/opt/tools/bsc/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin`
+To check whether the `PATH` has been added correctly, use the command `echo $PATH`. Successful inclusion of the path will prompt the following output in the terminal window ```/opt/tools/bsc/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin```
 
 
 
