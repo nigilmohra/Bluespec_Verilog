@@ -1,4 +1,4 @@
-#Installation of Bluespec Compiler (BSC)
+# Installation of Bluespec Compiler (BSC)
 This report contains the installation procedure to setup the Bluespec Compiler (BSC) on Ubuntu 24.04. The latest version of the Ubuntu Linux Distribution can be installed from here [Download Ubuntu Desktop | Ubuntu](https://ubuntu.com/download/desktop)
 
 ## Steps
