@@ -3,7 +3,7 @@ This report contains the installation procedure to setup the Bluespec Compiler (
 
 ## Steps
 
--[] Install the tape archive (TAR) of the Bluespec Compiler (BSC) here [GitHub | BSC | Releases](https://github.com/B-Lang-org/bsc/releases) 
+-[-] Install the tape archive (TAR) of the Bluespec Compiler (BSC) here [GitHub | BSC | Releases](https://github.com/B-Lang-org/bsc/releases) 
 
 Save the download in any one of the following locations: `/opt`, `${HOME}/` or `/usr/share`. If the file is downloaded to other locations, use the following command to move it to the suggested folders: `sudo mv filename /opt`
 
