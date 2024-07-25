@@ -62,6 +62,20 @@ Successful inclusion of the path will prompt the following output in the termina
 |:-:|
 |_Figure 1. Successful Installation_ |
 
+# 2. Simulation
+It has been customary to start with a very simple example to introduce the working of any language. So, the first example program that is used to explain the flow of the BSC is a simple 'Hello World!' program.
+
+# 2.1. BSV Program
+```verilog
+module mkTestbench (Empty);
+
+   rule rl_print_answer;
+      $display ("Deep Thought says: Hello, World! The answer is 42.");
+      $finish;
+   endrule
+endmodule
+```
+
 # Reference
 For futher information, visit [Bluespec Compiler](https://github.com/B-Lang-org/bsc)
 
