@@ -80,6 +80,7 @@ endmodule
 ## 2.2. Compiling and Running
 There are multiples methods to compile and run the BSV file. Here is the one of many methods to run and verify the design.
 
+### 2.1.1 Creating the Directories
 Put the `.bsv` file in a directory called `src/`. From outside `src/`, run the following shell commands. 
 ```sh
 mkdir -p .bscdir
@@ -89,6 +90,7 @@ The `mkdir -p .bscdir` creates a directory named `.bscdir` in the current workin
 
 The `mkdir -p vlog` creates a directory named `vlog` in the current working directory. Similar to the first command, `-p` ensures that vlog is created even if parent directories leading up to `vlog` do not exist. This is run only at the initial setup phase.
 
+### 2.2.2. Running the BSV Program
 Run the following to compile and elaborate the design
 ```sh
 bsc -u -p "src:%/Libraries" -keep-fires -aggressive-conditions -show-schedule -show-range-conflict +RTS -K100M -RTS -bdir .bscdir -simdir .bscdir -info-dir .bscdir -vdir vlog -steps 10000000 -sim -g mkTestbench -o temp src/Testbench.bsv
