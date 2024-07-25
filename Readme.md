@@ -1,5 +1,5 @@
 # Bluespec System Verilog (BSV)
-This report contains the installation procedure to setup the Bluespec Compiler (BSC) on Ubuntu 24.04. The latest version of the Ubuntu Linux Distribution can be installed from here [Download Ubuntu Desktop | Ubuntu](https://ubuntu.com/download/desktop)
+This repository contains the installation procedure to setup the Bluespec Compiler (BSC) on Ubuntu 24.04. The latest version of the Ubuntu Linux Distribution can be installed from here [Download Ubuntu Desktop | Ubuntu](https://ubuntu.com/download/desktop). This repository is work in progress.
 
 # 1. Installation
 ## 1.1. Installing the Bluespec Compiler (BSC)
