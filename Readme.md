@@ -112,7 +112,7 @@ The `-V` tells Bluesim simulation to dump waveforms from the circuit into `dump.
 ## 2.3. Result
 |![image](https://github.com/user-attachments/assets/95e2acd4-3b8f-413d-b2a1-01f362f93ec6)|
 |:-:|
-|_Figure 2. Hello World in Ubunut Terminal_|
+|_Figure 2. Hello World !_|
 
 ## 2.4. Converting BSV Design to Verilog
 A BSV design can be converted to Verilog using the command:
