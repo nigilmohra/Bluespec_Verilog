@@ -55,12 +55,12 @@ echo $PATH
 ```
 
 Successful inclusion of the path will prompt the following output in the terminal window 
-|![image](https://github.com/user-attachments/assets/db116d63-9997-471b-8a48-11b16ea635fa)|
-|:-:|
-|_Figure 1. Successful Installation_ |
 ```sh
 /opt/tools/bsc/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 ```
+|![image](https://github.com/user-attachments/assets/f29dcacb-604c-46a0-b636-43e727208b9a)|
+|:-:|
+|_Figure 1. Successful Installation_ |
 
 # Reference
 For futher information, visit [Bluespec Compiler](https://github.com/B-Lang-org/bsc)
