@@ -65,7 +65,8 @@ Successful inclusion of the path will prompt the following output in the termina
 # 2. Simulation
 It has been customary to start with a very simple example to introduce the working of any language. So, the first example program that is used to explain the flow of the BSC is a simple 'Hello World!' program.
 
-# 2.1. BSV Program
+## 2.1. BSV Program
+Save the file as `Testbench.bsv`.
 ```verilog
 module mkTestbench (Empty);
 
@@ -75,6 +76,49 @@ module mkTestbench (Empty);
    endrule
 endmodule
 ```
+
+## 2.2. Compiling and Running
+There are multiples methods to compile and run the BSV file. Here is the one more method.
+
+Put the `.bsv` file in a directory called `src/`. From outside `src/`, run the following shell commands. 
+```sh
+mkdir -p .bscdir
+mkdir -p vlog
+```
+The `mkdir -p .bscdir` creates a directory named `.bscdir` in the current working directory. The `-p` option ensures that intermediate directories are created if they do not exist already. If `.bscdir` exists, `mkdir` will not raise an error or overwrite it.
+
+The `mkdir -p vlog` creates a directory named `vlog` in the current working directory. Similar to the first command, `-p` ensures that vlog is created even if parent directories leading up to `vlog` do not exist. This is run only at the initial setup phase.
+
+Run the following to compile and elaborate the design
+```sh
+bsc -u -p "src:%/Libraries" -keep-fires -aggressive-conditions -show-schedule -show-range-conflict +RTS -K100M -RTS -bdir .bscdir -simdir .bscdir -info-dir .bscdir -vdir vlog -steps 10000000 -sim -g mkTestbench -o temp src/Testbench.bsv
+```
+**_To this succint explanations of the shell scripts are avoided. But the explanation of the shell command can be found on ChatGPT, just copy and paste._**
+
+Finally to generate the binary file for simulation, run the following script
+```sh
+bsc -e mkTestbench -o mkTestbench_bsim +RTS -K100M -RTS -bdir .bscdir -simdir .bscdir -info-dir .bscdir -vdir vlog -sim -keep-fires
+```
+
+To execute the binary for simulation run
+```sh
+./mkTestbench_bsim -V
+```
+
+The `-V` tells Bluesim simulation to dump waveforms from the circuit into `dump.vcd` file. Verilog simulators also have commands to capture VCDs. **This program does not have any waveform, so run without `-V`.**
+
+## 2.3. Result
+|![image](https://github.com/user-attachments/assets/95e2acd4-3b8f-413d-b2a1-01f362f93ec6)|
+|:-:|
+|_Figure. Hello World in Ubunut Terminal_|
+
+## 2.4. Converting BSV Design to Verilog
+A BSV design can be converted to Verilog using the command:
+```sh
+bsc -verilog -g mkTestbench Testbench.bsv
+```
+
+Note that the waveforms from both Bluesim and Verilog simulation will be the same.
 
 # Reference
 For futher information, visit [Bluespec Compiler](https://github.com/B-Lang-org/bsc)
