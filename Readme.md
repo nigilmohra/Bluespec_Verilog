@@ -78,7 +78,7 @@ endmodule
 ```
 
 ## 2.2. Compiling and Running
-There are multiples methods to compile and run the BSV file. Here is the one more method.
+There are multiples methods to compile and run the BSV file. Here is the one of many methods to run and verify the design.
 
 Put the `.bsv` file in a directory called `src/`. From outside `src/`, run the following shell commands. 
 ```sh
@@ -110,7 +110,7 @@ The `-V` tells Bluesim simulation to dump waveforms from the circuit into `dump.
 ## 2.3. Result
 |![image](https://github.com/user-attachments/assets/95e2acd4-3b8f-413d-b2a1-01f362f93ec6)|
 |:-:|
-|_Figure. Hello World in Ubunut Terminal_|
+|_Figure 2. Hello World in Ubunut Terminal_|
 
 ## 2.4. Converting BSV Design to Verilog
 A BSV design can be converted to Verilog using the command:
