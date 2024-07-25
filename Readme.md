@@ -55,6 +55,9 @@ echo $PATH
 ```
 
 Successful inclusion of the path will prompt the following output in the terminal window 
+|![image](https://github.com/user-attachments/assets/c6a0d39c-ec74-44f2-869b-5c7c95721d6c)|
+|:-:|
+|_Figure 1. Successful Installation_ |
 ```sh
 /opt/tools/bsc/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 ```
