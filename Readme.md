@@ -80,7 +80,7 @@ endmodule
 ## 2.2. Compiling and Running
 There are multiples methods to compile and run the BSV file. Here is the one of many methods to run and verify the design.
 
-### 2.1.1 Creating the Directories
+### 2.1.1. Creating the Directories
 Put the `.bsv` file in a directory called `src/`. From outside `src/`, run the following shell commands. 
 ```sh
 mkdir -p .bscdir
@@ -95,7 +95,7 @@ Run the following to compile and elaborate the design
 ```sh
 bsc -u -p "src:%/Libraries" -keep-fires -aggressive-conditions -show-schedule -show-range-conflict +RTS -K100M -RTS -bdir .bscdir -simdir .bscdir -info-dir .bscdir -vdir vlog -steps 10000000 -sim -g mkTestbench -o temp src/Testbench.bsv
 ```
-**_To this succint explanations of the shell scripts are avoided. But the explanation of the shell command can be found on ChatGPT, just copy and paste._**
+**_To keep this succint explanations of the shell scripts are avoided. But the explanation of the shell command can be found on ChatGPT, just copy and paste._**
 
 Finally to generate the binary file for simulation, run the following script
 ```sh
