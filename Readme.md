@@ -1,7 +1,8 @@
 # Bluespec System Verilog (BSV)
 This report contains the installation procedure to setup the Bluespec Compiler (BSC) on Ubuntu 24.04. The latest version of the Ubuntu Linux Distribution can be installed from here [Download Ubuntu Desktop | Ubuntu](https://ubuntu.com/download/desktop)
 
-# 1. Installation of Bluepsec Compiler (BSV)
+# 1. Installation
+## 1.1. Installing the Bluespec Compiler (BSC)
 Install the tape archive (TAR) of the Bluespec Compiler (BSC) here [GitHub | BSC | Releases](https://github.com/B-Lang-org/bsc/releases) 
 
 Save the download in any one of the following locations: `/opt`, `${HOME}/` or `/usr/share`. If the file is downloaded to other locations, use the following command to move it to the suggested folders: 
@@ -34,7 +35,7 @@ Create a symbolic link using the command:
 sudo ln -s filename latest
 ```
 
-# 2. Adding the Path
+## 1.2. Adding the Path
 To add the `bin` subdirectory to the `PATH` open the configuration file for the Bash shell environment using the command: 
 ```sh
 gedit ~/. bashrc
@@ -47,12 +48,14 @@ export PATH="/opt/tools/bsc/latest/bin:$PATH"
 ``` 
 Save and exit.
 
-# 3. Check
+# 1.3. Installation Check
 To check whether the `PATH` has been added correctly, use the command `echo $PATH`. Successful inclusion of the path will prompt the following output in the terminal window 
 ```sh
 /opt/tools/bsc/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 ```
 
+# Reference
+For futher information, visit [Bluespec Compiler](https://github.com/B-Lang-org/bsc)
 
 
 
