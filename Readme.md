@@ -5,16 +5,24 @@ This report contains the installation procedure to setup the Bluespec Compiler (
 Install the tape archive (TAR) of the Bluespec Compiler (BSC) here [GitHub | BSC | Releases](https://github.com/B-Lang-org/bsc/releases) 
 
 Save the download in any one of the following locations: `/opt`, `${HOME}/` or `/usr/share`. If the file is downloaded to other locations, use the following command to move it to the suggested folders: 
-```sudo mv filename /opt```
+```
+sudo mv filename /opt
+```
 
 Unpack the archive using the command: 
-```sudo tar -xvzf filename```
+```
+sudo tar -xvzf filename
+```
 
 Further installation instructions to add the path can be found in the `README.txt`. Create a directory named `tools` using the command: 
-```sudo mkdir -p /opt/tools/bsc``` 
+```
+sudo mkdir -p /opt/tools/bsc
+``` 
 
 Move the unpacked `BSC` file inside the directory using the command: 
-```sudo mv filename /opt/tools/bsc/filename```
+```
+sudo mv filename /opt/tools/bsc/filename
+```
 
 Navigate to the directory in the terminal using the command: `cd /opt/tools/bsc` and create a symbolic link using the command: `sudo ln -s filename latest`
 
