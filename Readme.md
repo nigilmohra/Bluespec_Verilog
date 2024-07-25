@@ -55,7 +55,7 @@ echo $PATH
 ```
 
 Successful inclusion of the path will prompt the following output in the terminal window 
-|![image](https://github.com/user-attachments/assets/c6a0d39c-ec74-44f2-869b-5c7c95721d6c)|
+|![image](https://github.com/user-attachments/assets/c6a0d39c-ec74-44f2-869b-5c7c95721d6c | width=100)|
 |:-:|
 |_Figure 1. Successful Installation_ |
 ```sh
