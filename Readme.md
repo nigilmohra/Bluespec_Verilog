@@ -38,7 +38,7 @@ sudo ln -s filename latest
 ## 1.2. Adding the Path
 To add the `bin` subdirectory to the `PATH` open the configuration file for the Bash shell environment using the command: 
 ```sh
-gedit ~/. bashrc
+sudo gedit ~/.bashrc
 ```
 Any one of the following text editor of choice can be used `vim` and `nano`
 
