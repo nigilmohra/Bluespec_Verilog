@@ -57,7 +57,7 @@ To check whether the `PATH` has been added correctly, use the command
 echo $PATH
 ```
 
-Successful inclusion of the path will prompt the following output in the terminal window 
+Successful inclusion of the path will prompt the following output in the terminal window. 
 ```sh
 /opt/tools/bsc/latest/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 ```
