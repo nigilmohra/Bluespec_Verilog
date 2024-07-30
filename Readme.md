@@ -49,7 +49,7 @@ export PATH="/opt/tools/bsc/latest/bin:$PATH"
 Save and exit.
 
 ## 1.3. Installation Check
-To check whether the `PATH` has been added correctly, use the command 
+Reboot and to check whether the `PATH` has been added correctly, use the command 
 ```sh
 echo $PATH
 ```
