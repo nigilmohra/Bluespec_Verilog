@@ -46,10 +46,13 @@ At the bottom of the configuration file, add the following path:
 ```sh
 export PATH="/opt/tools/bsc/latest/bin:$PATH"
 ``` 
-Save and exit.
+Save and exit the text editor. Use the command to restart.
+```sh
+reboot
+```
 
 ## 1.3. Installation Check
-Reboot and to check whether the `PATH` has been added correctly, use the command 
+To check whether the `PATH` has been added correctly, use the command 
 ```sh
 echo $PATH
 ```
