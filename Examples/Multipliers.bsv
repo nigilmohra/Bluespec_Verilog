@@ -26,7 +26,8 @@ endmodule
 // -------------------------------------------------------
 // BSV | SEQUENTIAL CIRCUITS | SIMPLE FOLDED MULTIPLIER II 
 // -------------------------------------------------------
-module mkMultiplier (Empty);
+
+module mkFoldedMultiplier (Empty);
 
     Reg#(Bit#(4)) a <- mkReg(4'b1100); 
     Reg#(Bit#(4)) b <- mkReg(4'b1100); 
