@@ -1,2 +1,2 @@
-*.bsv linguist-documentation=true
+*.bsv linguist-detectable=true
 
