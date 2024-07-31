@@ -1,2 +1,2 @@
-Examples/* linguist-documentation=false
-Examples/* linguist-vendored
+*.bsv linguist-documentation=true
+
