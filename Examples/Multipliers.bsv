@@ -1,5 +1,5 @@
 // -------------------------------------------------------
-// BSV | SEQUENTIAL CIRCUITS | SIMPLE MULTIPLIER I
+// BSV | SEQUENTIAL CIRCUITS | SHIFT & ADD MULTIPLIER [1]
 // -------------------------------------------------------
 
 module mkMultiplier (Empty);
@@ -24,7 +24,7 @@ module mkMultiplier (Empty);
 endmodule
 
 // -------------------------------------------------------
-// BSV | SEQUENTIAL CIRCUITS | SIMPLE FOLDED MULTIPLIER
+// BSV | SEQUENTIAL CIRCUITS | FOLDED MULTIPLIER [2]
 // -------------------------------------------------------
 
 module mkFoldedMultiplier (Empty);
@@ -52,7 +52,7 @@ module mkFoldedMultiplier (Empty);
 endmodule
 
 // -------------------------------------------------------
-// BSV | SEQUENTIAL CIRCUITS | SIMPLE SOS MULTIPLIER
+// BSV | SEQUENTIAL CIRCUITS | SOS MULTIPLIER [3]
 // -------------------------------------------------------
 
 module mkSOSMultiplier (Empty);
