@@ -24,7 +24,7 @@ module mkMultiplier (Empty);
 endmodule
 
 // -------------------------------------------------------
-// BSV | SEQUENTIAL CIRCUITS | SIMPLE FOLDED MULTIPLIER II 
+// BSV | SEQUENTIAL CIRCUITS | SIMPLE FOLDED MULTIPLIER
 // -------------------------------------------------------
 
 module mkFoldedMultiplier (Empty);
@@ -49,6 +49,50 @@ module mkFoldedMultiplier (Empty);
         $finish;
     endrule
 
+endmodule
+
+// -------------------------------------------------------
+// BSV | SEQUENTIAL CIRCUITS | SIMPLE SOS MULTIPLIER
+// -------------------------------------------------------
+
+module mkSOSMultiplier (Empty);
+
+    // OPERANDS
+    Reg#(Bit#(4)) a <- mkReg(4'b1111); 
+    Reg#(Bit#(4)) b <- mkReg(4'b1111);
+ 
+    Reg#(Bit#(8)) t <- mkReg(0);        // PRODUCT
+    Reg#(Bit#(1)) c <- mkReg(0);	// CARRY
+    
+    // LOOP VARIABLES
+    Reg#(Bit#(3)) i <- mkReg(0);
+    Reg#(Bit#(3)) j <- mkReg(0);
+    
+    // RULES SHOULD NOT CONFLICT
+    rule mulStep (j != 4);
+    	        Bit#(1) t1 = (a[j] * b[i]);
+    	        Bit#(2) t2 = extend(t[i+j]) + extend(c);
+    	        Bit#(2) t3 = zeroExtend(t1) + t2;
+    	            t[i+j]<= t3[0];
+    	                c <= t3[1];
+    	                j <= j + 1;
+    endrule
+    	    
+    // INCREMENT CONDITION FOR 'OPERAND A'
+    rule inc_i (j == 4); 
+    	    	j <= 0; 
+    	    	i <= i + 1;
+    	 t[i + 4] <= c;
+    	        c <= 0;
+   endrule
+
+    	    
+   // BREAK
+   rule finish (i == 4);
+        $display("Product = %0d", t);  
+    	$finish;
+   endrule
+    
 endmodule
 
 // -------------------------------------------------------
