@@ -85,8 +85,7 @@ module mkSOSMultiplier (Empty);
     	 t[i + 4] <= c;
     	        c <= 0;
    endrule
-
-    	    
+    
    // BREAK
    rule finish (i == 4);
         $display("Product = %0d", t);  
