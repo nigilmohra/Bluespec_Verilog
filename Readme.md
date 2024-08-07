@@ -40,7 +40,7 @@ To add the `bin` subdirectory to the `PATH` open the configuration file for the 
 ```sh
 sudo gedit ~/.bashrc
 ```
-Any one of the following text editor of choice can be used `vim` and `nano`
+Any one of the following text editor of choice can be used `vim` and `nano`. Before running the command make sure one of the text editor is installed in the system. `sudo apt-get install gedit`, run this command to install gedit.
 
 At the bottom of the configuration file, add the following path: 
 ```sh
@@ -48,7 +48,7 @@ export PATH="/opt/tools/bsc/latest/bin:$PATH"
 ``` 
 Save and exit the text editor. Use the command to restart.
 ```sh
-reboot
+sudo reboot
 ```
 
 ## 1.3. Installation Check
