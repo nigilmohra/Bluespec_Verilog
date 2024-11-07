@@ -82,7 +82,7 @@ module mkAdd32 (Add32);
     endmethod
 endmodule
 
-// 32-Bit Adder
+// 32-Bit Subtractor
 
 interface Sub32;
     method Tuple2#(Bit#(1), Bit#(32)) do_sub (Bit#(32) a, Bit#(32) b, Bit#(1) c);
