@@ -45,7 +45,7 @@ module mkRCAdder (RCAdder#(w));
     endmethod
 endmodule
 
-/* 
+/* --------------------------------------------------------------- Note
 Error: "src/RCAdder.bsv", line 31, column 8: (T0043)
 Cannot synthesize `mkRCAdder': Its interface is polymorphic.
 
