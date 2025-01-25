@@ -44,3 +44,12 @@ module mkRCAdder (RCAdder#(w));
         return {c[valueOf(w)], s};
     endmethod
 endmodule
+
+/* 
+Error: "src/RCAdder.bsv", line 31, column 8: (T0043)
+Cannot synthesize `mkRCAdder': Its interface is polymorphic.
+
+BSV Parameterization and Inline Mechanism
+- BSV parameterization mechanisms are more powerful than those of RTL; this is not even possible in RTL. 
+- Instead of generating a separate Verilog module for `mkRCAdder.v`, remove the `(*synthesize*)` attribute from `mkRCAdder()` and let BSC inline it in the design that instantiates it.
+*/
