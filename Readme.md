@@ -1,4 +1,4 @@
-**_Notice_** : _As far the license is concerned do site the link of the GitHub repository link._ _There might be mistakes in the simulations or calculations. If you find any, feel free to report them at:_ [nigilconnects@gmail.com](mailto:nigilconnects@gmail.com).  
+**_Notice_** : _As for the license, please cite the link to the GitHub repository._ _There might be mistakes in the simulations or calculations. If you find any, feel free to report them at:_ [nigilconnects@gmail.com](mailto:nigilconnects@gmail.com).  
 
 -- **Organised** -- 
 
