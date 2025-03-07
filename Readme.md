@@ -3,6 +3,7 @@ This repository contains the installation procedure to setup the Bluespec Compil
 
 ## Materials
 Here is a Google Drive link to video lectures and materials on the basics of Bluespec SystemVerilog: [Nigil's Google Drive - Bluespec System Verilog](https://drive.google.com/drive/folders/1Ns0QZcZEDbUA2l4zanrrUJ-NUkkHYwts?usp=sharing). 
+
 For more advanced lectures on using Bluespec SystemVerilog for digital design, refer to the MIT - Computer Systems Architecture course by Prof. Arvind and Senior Lecturer Silvina Hanono Wachman: [MIT - Computer Systems Architecture](https://www.youtube.com/@silvinahanonowachman3310/videos)
 
 # 1. Installation
